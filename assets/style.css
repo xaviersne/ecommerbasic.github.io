@@ -1,3 +1,4 @@
+
 .header  {
     border: 1px solid #000;
     grid-area: header;
@@ -36,4 +37,13 @@
     display:grid;
     place-content: center;
 
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-content {
+    border: 1px solid #000;
 }
