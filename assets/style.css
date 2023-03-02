@@ -1,0 +1,39 @@
+.header  {
+    border: 1px solid #000;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.barra {
+    border: 1px solid #000;
+    grid-area: barra;
+}
+
+.card {
+    border: 1px solid #000;
+    grid-area: card;
+}
+.foot {
+    border: 1px solid #000;
+    grid-area: foot;
+}
+
+.padre {
+    display: grid;
+    grid-template-columns: 10fr 90fr;
+    grid-row: 1fr 8fr 1fr;
+    grid-template-areas: 
+    'header header header header'
+    'barra card card card'
+    'foot foot foot foot';
+    height: 10vh;
+}
+
+.barra {
+    display:grid;
+    place-content: center;
+
+}
